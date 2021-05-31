@@ -1,3 +1,10 @@
 h1 {
   text-align: center;
+  margin-top: 0;
+}
+
+.introduction {
+  max-width: 100%;
+  width: 32rem;
+  margin: 0 auto 2rem auto;
 }
