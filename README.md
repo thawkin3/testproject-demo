@@ -6,9 +6,10 @@ It contains an app built with React that runs tests using [Jest](https://jestjs.
 
 ## npm scripts
 
-- `build`: Builds the app
-- `eject`: Ejects the app from the create-react-app react-scripts setup
+- `build`: Builds the production app
+- `eject`: Ejects from `react-scripts`
 - `format`: Formats the code using Prettier
-- `format-watch`: Formats the code using Prettier in watch mode
-- `start`: Runs the app locally
-- `test`: Runs the tests
+- `format:watch`: Formats the code using Prettier in watch mode
+- `start`: Starts the app for running locally in development mode
+- `test`: Runs the unit tests with Jest and React Testing Library in watch mode
+- `test:coverage`: Runs the unit tests and generates a coverage report

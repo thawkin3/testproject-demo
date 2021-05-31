@@ -4,8 +4,7 @@ import { App } from './App'
 describe('App', () => {
   it('renders the heading', () => {
     render(<App />)
-    expect(
-      screen.getByText('TestProject JavaScript OpenSDK Demo')
-    ).toBeInTheDocument()
+    const headingText = 'TestProject JavaScript OpenSDK Demo'
+    expect(screen.getByText(headingText)).toBeInTheDocument()
   })
 })
