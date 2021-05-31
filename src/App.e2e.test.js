@@ -7,7 +7,11 @@ describe('App', () => {
   let driver
 
   beforeEach(async () => {
-    driver = await new Builder().forBrowser('chrome').build()
+    driver = await new Builder()
+      .forBrowser('chrome')
+      .withProjectName('TestProject Demo')
+      .withJobName('Request Form')
+      .build()
   })
 
   afterEach(async () => {
