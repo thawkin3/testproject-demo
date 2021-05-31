@@ -6,7 +6,9 @@ This project is a simple demo of the [TestProject JavaScript OpenSDK](https://gi
 
 You can run the app on your machine by cloning the repo, running `yarn install` to install the dependencies, and then running `yarn start` to start the app in development mode.
 
-To run the end-to-end tests, you first need to install the TestProject agent on your machine, generate a developer token, and include that token in the `.env` file as the `TP_DEV_TOKEN` variable. Once you've completed those steps, you can run `yarn test:e2e` to run the tests.
+## Running the e2e tests locally
+
+To run the end-to-end tests, you first need to install the TestProject agent on your machine, generate a developer token, and include that token in the `.env` file as the `TP_DEV_TOKEN` variable. Once you've completed those steps, you can run `yarn start` to run the app locally and then run `yarn test:e2e` to run the e2e tests.
 
 ## General setup process
 
