@@ -28,8 +28,9 @@ This app was built by following these general steps:
 - `format`: Formats the code using Prettier
 - `format:watch`: Formats the code using Prettier in watch mode
 - `start`: Starts the app for running locally in development mode
-- `test:e2e`: Runs the e2e tests with Jest and TestProject
-- `test:e2e:watch`: Runs the e2e tests with Jest and TestProject in watch mode
+- `test:e2e`: Waits for the app to be running locally and then runs the e2e tests with Jest and TestProject (In other words, you must run `yarn start` and then `yarn test:e2e`)
+- `test:e2e:ci`: Starts the app locally and then runs the e2e tests with Jest and TestProject (In other words, this command simplifies the process of running `yarn start` and `yarn test:e2e` into a single command that handles both processes)
+- `test:e2e:watch`: Waits for the app to be running locally and then runs the e2e tests with Jest and TestProject in watch mode (In other words, you must run `yarn start` and then `yarn test:e2e:watch`)
 - `test:unit`: Runs the unit tests with Jest and React Testing Library
 - `test:unit:coverage`: Runs the unit tests and generates a coverage report
 - `test:unit:watch`: Runs the unit tests with Jest and React Testing Library in watch mode
